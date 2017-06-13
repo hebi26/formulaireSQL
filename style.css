@@ -1,0 +1,78 @@
+*{
+  font-family: "Purisa";
+}
+
+body {
+  background-color: black;
+}
+.main{
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.main h3{
+  padding-top: 40px;
+  color: darkred;
+}
+.main textarea, #Title{
+  color: black;
+  background-color: #FDF1B8;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 5px;
+}
+.main textarea{
+  margin-bottom: 20px;
+  width: 95%;
+  height: 200px;
+}
+#Title{
+  padding: 10px 0 10px 0;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+#File{
+  padding: 10px 0 10px 0;
+}
+.main img{
+  width: 600px;
+}
+hr {
+  margin-top: 0;
+}
+.main p{
+  margin: 0;
+  padding: 10px 0;
+  background-color: #FDF1B8;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav li{
+  display: inline;
+}
+.nav{
+  width: 28%;
+  margin: auto;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 20px;
+  border: 2px solid white;
+  border-top: none;
+  font-weight: bold;
+}
+.btn{
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
